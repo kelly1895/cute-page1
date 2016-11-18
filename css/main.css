@@ -1,0 +1,153 @@
+/* Inserta tu CSS aqui */
+
+*{
+
+}
+
+/*----------------------------------------------------------------ENCABEZADO--------*/
+.menu{
+    text-align:center;
+}
+
+.menu ul li{
+    
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    
+}
+
+.menu ul li a{
+    color:aqua;
+    font-family: "Anton", sans-serif;
+}
+
+/*-----------------------------------------------------------------PORTADA--------*/
+
+.portada{
+    background: url(../images/fondo6.jpg) no-repeat ;
+    background-size:cover;
+    
+    height: 700px;
+    
+    
+}
+
+.logo{
+    text-align: center;
+    padding: 15%;
+    font-size: 35px;
+    color: white;
+    
+}
+
+.logo p{
+    font-family: "oswald" , monospace;
+}
+.portada img{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+/*-----------------------------------------------------------------BIOGRAFIA-------*/
+.life{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.bio{
+    background: url(../images/tile2.png);
+
+}
+
+.perfil{
+    text-align: center;
+    padding:5px;
+    border: 2px solid aqua;
+    padding: 5px;
+    width: 50%;
+   
+}
+
+.txt1 , .txt2{
+    font-family:"oswald" , monospace;
+}
+
+.txt1{
+
+    text-align-last: center;
+    color: cyan;
+    font-size: 25px;
+}
+
+.txt2{
+    font-size: 18px;
+}
+
+
+/*-----------------------------------------------------------------FAVORITOS-------*/
+.favoritos h1{
+    font-family: "oswald" , inherit;
+    color: aqua;
+}
+
+.favoritos h2{
+    font-family: "oswald" , inherit;
+    color: aqua;
+    margin-bottom: 25px;
+}
+.favoritos img{
+    text-align: center;
+    padding: 5px;
+    border: 3px solid aqua;
+    border-radius: 100%;
+    width:250px;
+    height: 250px;
+}
+
+.favoritos{
+    padding: 50px;
+    text-align: center;
+}
+
+.favoritos div p{
+    text-align: center;
+    margin-top: 15px;
+    font-family: "oswald" , monospace;
+    color: black;
+}
+/*-----------------------------------------------------------------PIE DE PAGINA-------*/
+
+footer{
+    background: url(../images/fondo3.jpg)
+}
+
+.red{
+    text-align: center;
+    padding: 100px;
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+
+.red ul li {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+.red h3{
+    color:white;
+    font-family: "oswald", fantasy;
+    font-size:35px;
+}
